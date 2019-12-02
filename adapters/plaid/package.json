@@ -1,0 +1,22 @@
+{
+  "name": "plaid-adapter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Plaid API Adapter.",
+  "scripts": {
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "envvar": "1.1.x",
+    "express": "^4.17.1",
+    "moment": "2.22.x",
+    "plaid": "4.x.x"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,7 +1,7 @@
 const clUtils = require('../../chainlink/cl-utils');
 
 const Oracle = artifacts.require('Oracle');
-
+ 
 module.exports = async callback => {
   const oracle = await Oracle.deployed();
   const accountAddr = await clUtils.getAcctAddr();

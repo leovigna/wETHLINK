@@ -51,7 +51,10 @@ async function getAcctAddr() {
       });
 
       res.on('end', () => {
-        resolve(JSON.parse(resBody).data[0].id);
+        console.log(resBody)
+        try {
+            resolve(JSON.parse(resBody).data[0].id);
+        } catch {}
       });
 
       res.on('error', (err) => {
