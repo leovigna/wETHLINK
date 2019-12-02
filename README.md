@@ -1,5 +1,6 @@
 # wETHLINK: Proof of Concept Chainlink token abstraction
-DISCLAIMER: This is just a Proof of Concept at the moment and not ready for mainnet launch.
+**DISCLAIMER: This is just a Proof of Concept at the moment and not ready for mainnet launch.**
+
 This project accompanies my "Chainlink to infinity, LINK to zero: The risks of token abstraction" article. Is is meant to show the possibility of launching a Chainlink Oracle network relying on ETH instead of using LINK. Special thanks to the Chainlink team for developing this great product and to the DeliveryLink [workshop](https://github.com/danforbes/delivery-link) project, a project I forked to get started with Chainlink a couple days ago 11/28/2019.
 
 The three main components of the Chainlink Oracle network that we modify are:
